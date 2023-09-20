@@ -69,7 +69,7 @@ return (
                                     <NavLink to={'/testvite/sports-teakwondo'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} />Learning and Assignment Projects</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to={'/testvite/user/dashboard/ '}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} />School login</NavLink>
+                                    <NavLink to={'#'}><FaGreaterThan style={{paddingTop:'4px' , marginTop:'3px' ,marginRight:"6px"}} />School login</NavLink>
                                 </li>
                             </ul>
                         </div>

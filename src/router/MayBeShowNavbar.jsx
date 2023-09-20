@@ -1,7 +1,6 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
 import { useEffect,useState } from 'react';
-import BackendNav from '../backend/BackendNav';
 
 const MayBeShowNavbar = ({children,setFoot,refNav}) => {
     
@@ -21,7 +20,7 @@ const MayBeShowNavbar = ({children,setFoot,refNav}) => {
 
     return (
       <>
-        {nav? children:<BackendNav refreshNav={refNav} /> }
+        {nav? children:null }
       </>
   )
 }
