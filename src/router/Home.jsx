@@ -19,7 +19,7 @@ import topperData from '../data/topperData.json'
 const Home = () => {
   return (
     <>
-    <Carousel carouselData={data.slides} />
+    <Carousel carouselArray={data.slides} />
     <div className='notice-wrapper'>
       <NoticeBox notice={noticeData.noticeBoard}/>
       <EventBox event={eventData.eventData}/>
