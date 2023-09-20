@@ -11,8 +11,7 @@ const Navbar = () =>{
     useEffect(()=>{
         setShowMediaIcon(false);
     },[location])
-
-
+    
     return(
         <>
         <nav className='main-nav'>
